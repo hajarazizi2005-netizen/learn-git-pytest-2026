@@ -180,6 +180,11 @@ This creates an isolated Python environment.
 .\.venv\Scripts\Activate.ps1
 ```
 
+Si il y a un problème
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 #### Windows (Command Prompt)
 
 ```cmd
@@ -195,6 +200,8 @@ You should now see:
 in your terminal prompt.
 
 ---
+
+
 
 ## Step 5 — Install Dependencies
 
